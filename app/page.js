@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { HMSPrebuilt } from "@100mslive/roomkit-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
@@ -65,17 +66,21 @@ export default function Home() {
             style={{
               borderRadius: "20px",
               overflow: "hidden",
-              width: "500px",
+              width: "850px",
               height: "550px",
             }}
           >
-            <Image
+            <HMSPrebuilt roomCode="pli-mvvn-hwi" />
+            {/* <div style={{ height: "100vh" }}>
+      
+    </div> */}
+            {/* <Image
               src="/doctor.jpg"
               width={500}
               height={400}
               objectFit="cover"
               alt="Picture of a Doctor"
-            />
+            /> */}
           </div>
         </div>
 
