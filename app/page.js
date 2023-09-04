@@ -32,57 +32,59 @@ export default function Home() {
         </Link>
       </header>
       <main>
-        <div className="flex justify-around">
-          <Card>
-            <h1 className="text-6xl font-bold pt-10 px-10">
-              Transform
-              <br />
-              your health
-              <br />
-              with expert
-              <br />
-              care
-            </h1>
-            <h3 className="text-lg px-10 pt-5">
-              Our goal is to empower you with the
-              <br />
-              knowledge and resources you need to make
-              <br />
-              informed decisions about your health.
-            </h3>
+        <section>
+          <div className="flex flex-col md:flex-row justify-around ">
+            <Card>
+              <h1 className="text-6xl font-bold pt-10 px-10">
+                Transform
+                <br />
+                your health
+                <br />
+                with expert
+                <br />
+                care
+              </h1>
+              <h3 className="text-lg px-10 pt-5">
+                Our goal is to empower you with the
+                <br />
+                knowledge and resources you need to make
+                <br />
+                informed decisions about your health.
+              </h3>
 
-            <div>
-              <Link href="/call">
-                <Button className="m-10 mr-2">Call us</Button>
-              </Link>
+              <div>
+                <Link href="/call">
+                  <Button className="m-10 mr-2">Call us</Button>
+                </Link>
 
-              <Button className="my-10" variant="outline">
-                Book an appointment
-              </Button>
-            </div>
-          </Card>
+                <Button className="my-10" variant="outline">
+                  Book an appointment
+                </Button>
+              </div>
+            </Card>
 
-          <div
-            style={{
-              borderRadius: "20px",
-              overflow: "hidden",
-              width: "850px",
-              height: "550px",
-            }}
-          >
-            <HMSPrebuilt roomCode="pli-mvvn-hwi" />
-            {/* <div style={{ height: "100vh" }}>
+            <div
+              style={{
+                borderRadius: "20px",
+                overflow: "hidden",
+                width: "850px",
+                height: "550px",
+              }}
+            >
+              <HMSPrebuilt roomCode="pli-mvvn-hwi" />
+              {/* <div style={{ height: "100vh" }}>
       
     </div> */}
-            {/* <Image
+              {/* <Image
               src="/doctor.jpg"
               width={500}
               height={400}
               objectFit="cover"
               alt="Picture of a Doctor"
             /> */}
+            </div>
           </div>
-        </div>
+        </section>
 
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
