@@ -1,15 +1,6 @@
 "use client";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { HMSPrebuilt } from "@100mslive/roomkit-react";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -70,19 +61,7 @@ export default function Home() {
                 width: "850px",
                 height: "550px",
               }}
-            >
-              <HMSPrebuilt roomCode="pli-mvvn-hwi" />
-              {/* <div style={{ height: "100vh" }}>
-      
-    </div> */}
-              {/* <Image
-              src="/doctor.jpg"
-              width={500}
-              height={400}
-              objectFit="cover"
-              alt="Picture of a Doctor"
-            /> */}
-            </div>
+            ></div>
           </div>
         </section>
 
