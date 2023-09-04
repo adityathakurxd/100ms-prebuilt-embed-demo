@@ -18,9 +18,8 @@ export default function Home() {
     <>
       <header className="flex justify-between">
         <h1 className="m-10 text-2xl font-bold">Consult Doc</h1>
-        <Link href="/call">
-          <Button className="m-10">Call us</Button>
-        </Link>
+
+        <Button className="m-10">Call us</Button>
       </header>
       <main>
         <section>
@@ -44,9 +43,7 @@ export default function Home() {
               </h3>
 
               <div>
-                <Link href="/call">
-                  <Button className="m-10 mr-2">Call us</Button>
-                </Link>
+                <Button className="m-10 mr-2">Call us</Button>
 
                 <Button className="my-10" variant="outline">
                   Book an appointment
