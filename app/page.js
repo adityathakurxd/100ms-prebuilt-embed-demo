@@ -51,7 +51,9 @@ export default function Home() {
               </div>
             </Card>
 
-            <div className="rounded-2xl w-full lg:w-[850px] h-[800px] lg:h-[550px] overflow-hidden "></div>
+            <div className="rounded-2xl w-full lg:w-[850px] h-[800px] lg:h-[550px] overflow-hidden ">
+              {/* TODO: Embed HMSPrebuilt component here */}
+            </div>
           </div>
         </section>
 
