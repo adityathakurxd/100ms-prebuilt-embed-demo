@@ -63,14 +63,14 @@ export default function Home() {
               </div>
             </Card>
 
-            <div
-              style={{
-                borderRadius: "20px",
-                overflow: "hidden",
-                width: "850px",
-                height: "550px",
-              }}
-            >
+            <div className="rounded-2xl w-full lg:w-[850px] h-[800px] lg:h-[550px] overflow-hidden ">
+              {/* // style={{
+              //   borderRadius: "20px",
+              //   overflow: "hidden",
+              //   width: "850px",
+              //   height: "550px",
+              // }}
+            > */}
               <HMSPrebuilt roomCode="pli-mvvn-hwi" />
               {/* <div style={{ height: "100vh" }}>
       
